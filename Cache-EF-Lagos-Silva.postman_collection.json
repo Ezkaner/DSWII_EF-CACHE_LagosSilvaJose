@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "15a03487-b2a3-49dd-82db-4518e142228c",
+		"name": "Cache-EF-Lagos-Silva",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32958125"
+	},
+	"item": [
+		{
+			"name": "Cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/cliente/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cliente",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reservas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/reservas/Diciembre",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"reservas",
+						"Diciembre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vendedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/vendedor/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"Vendedor",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
